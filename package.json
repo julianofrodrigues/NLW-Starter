@@ -4,7 +4,8 @@
   "description": "Aprendizado",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "nodemon src/server.js",
+    "knex:migrate": "knex --knexfile knexfile.ts migrate:latest"
   },
   "author": "Juliano Ferreira Rodrigues",
   "license": "ISC",
